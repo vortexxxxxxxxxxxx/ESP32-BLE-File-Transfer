@@ -103,10 +103,10 @@ void setup() {
   Serial.println("Initializing SD card…");
   SPI.begin();
   if (!SD.begin(SD_CS)) {
-    Serial.println("❌ SD init failed!");
+    Serial.println("X SD init failed! X");
     while (true) delay(100);
   }
-  Serial.println("✅ SD initialized.");
+  Serial.println("!!! SD initialized. !!!");
 
   // List files on startup
   File root = SD.open("/");
