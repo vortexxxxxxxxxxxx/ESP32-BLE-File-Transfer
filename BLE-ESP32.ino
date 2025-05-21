@@ -1,3 +1,18 @@
+/*
+               /$$      
+              | $$      
+ /$$$$$$/$$$$ | $$   /$$
+| $$_  $$_  $$| $$  /$$/
+| $$ \ $$ \ $$| $$$$$$/ 
+| $$ | $$ | $$| $$_  $$ 
+| $$ | $$ | $$| $$ \  $$
+|__/ |__/ |__/|__/  \__/                     
+
+-make sure ESP32 BLE Arduino, SD, SPI, and FS libs are installed
+-use https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+
+*/
+
 #include <SPI.h>
 #include <SD.h>
 #include <BLEDevice.h>
